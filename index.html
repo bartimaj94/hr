@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HR-On</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="/slick-1.8.1/slick/slick-theme.css" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="container hero__container">
+        <div class="row hero__row">
+          <div class="col-md-6 hero__col hero__col--1">
+            <a href="#"><img src="logo.png" alt=""/></a>
+            <div class="info">
+              <h1 class="first-info">Automate</h1>
+              <h1 class="second-info">
+                & <span class="u_accent"> Simplify HR</span>
+              </h1>
+            </div>
+            <h4>With Uganda's most popular HR Software</h4>
+            <p>
+              Complete HRMS Software that easy and fun to use. No matter your
+              size; big or small we have a solution that caters all your needs.
+            </p>
+            <div class="container">
+              <div class="row video__row">
+                <a
+                  href="https://www.youtube.com"
+                  rel="lightbox"
+                  data-type="iframe"
+                  target="_blank"
+                  ><img src="play.png" alt="" width="80px" height="80px"
+                /></a>
+                <div class="u_text">
+                  <p class="u_text--1">01:28</p>
+                  <p class="u_text--2">Watch Now</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 hero__col hero__col--2">
+            <form action="index.html" class="login-form text-center">
+              <h3>Talk to <span class="f_accent--1">Our Experts</span></h3>
+              <p>
+                Find out why
+                <span class="f_accent--2">+200 Companies Trust HR-On</span>
+              </p>
+              <div class="txtb">
+                <input type="text" />
+                <span data-placeholder="Name"></span>
+              </div>
+              <div class="txtb">
+                <input type="text" />
+                <span data-placeholder="Email"></span>
+              </div>
+              <div class="txtb">
+                <input type="text" />
+                <span data-placeholder="Phone"></span>
+              </div>
+              <div class="txtb">
+                <input type="text" />
+                <span data-placeholder="Company Name"></span>
+              </div>
+              <div class="form-row">
+                <div class="col">
+                  <div class="txtb">
+                    <input type="text" />
+                    <span data-placeholder="Employee Size"></span>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="txtb">
+                    <input type="text" />
+                    <span data-placeholder="Industry"></span>
+                  </div>
+                </div>
+              </div>
+              <input type="submit" class="logbtn" value="Request a Demo" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="customers">
+      <div class="container customers__container">
+        <div class="row customers__row">
+          <div class="col-md-4 customers__col customers__col--1">
+            <i class="fas fa-quote-left fa-3x"></i>
+            <h2>What Our Customers Say</h2>
+            <p>
+              Trusted by <span class="f_accent--2">200+ companies</span> &
+              people like you
+            </p>
+          </div>
+          <div class="col-md-8 customers__col customers__col--2 text-center">
+            <div class="slider demo">
+              <div class="speech--1">
+                <figure class="image">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="client1.jpg"
+                    width="80px"
+                    height="80px"
+                    alt=""
+                  />
+                </figure>
+                <div class="testimonial--1">
+                  <p>
+                    "Hr-On is a fabulous tool that helped me improve the HR
+                    function."
+                  </p>
+                </div>
+                <h6 class="t_name">Charlie Cena, VP HR</h6>
+                <p class="t_company">Stock Industries</p>
+              </div>
+              <div class="speech--2">
+                <figure class="image">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="client2.jpg"
+                    width="80px"
+                    height="80px"
+                    alt=""
+                  />
+                </figure>
+                <div class="testimonial--2">
+                  <p>
+                    "All the functions, from leave to payroll management are
+                    really easy to operate. It is really a "Wow" platform to
+                    work on."
+                  </p>
+                </div>
+                <h6 class="t_name">Brock Lesnar, HR HEAD</h6>
+                <p class="t_company">Suplex City Group</p>
+              </div>
+              <div class="speech--3">
+                <figure class="image">
+                  <img
+                    class="img-fluid rounded-circle"
+                    src="client3.jpg"
+                    width="80px"
+                    height="80px"
+                    alt=""
+                  />
+                </figure>
+                <div class="testimonial--3">
+                  <p>
+                    "This platform is the best thing I can imagine. Everything
+                    is so simple to use!"
+                  </p>
+                </div>
+                <h6 class="t_name">Hermiony Granger, HR Leader</h6>
+                <p class="t_company">Hogwart HR Company</p>
+              </div>
+            </div>
+            <div class="container companies__container">
+              <div class="row">
+                <div class="col">
+                  <img id="company" src="company2.png" alt="" />
+                </div>
+                <div class="col">
+                  <img id="company" src="company1.png" alt="" />
+                </div>
+                <div class="col">
+                  <img id="company" src="company3.png" alt="" />
+                </div>
+                <div class="col">
+                  <img id="company" src="company4.png" alt="" />
+                </div>
+                <div class="col">
+                  <img id="company" src="company5.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pricing">
+      <div class="container pricing__container text-center">
+        <h4>All-in-One; HR-On</h4>
+        <p>
+          Multiple solutions power packed into
+          <span class="f_accent--2">one single system</span>
+        </p>
+        <div class="slider price">
+          <div class="price__card--1 text-left">
+            <h5>Payroll</h5>
+            <p><i class="fas fa-check"></i>&nbsp;Payroll Management</p>
+            <p><i class="fas fa-check"></i>&nbsp;Finance Management</p>
+            <p><i class="fas fa-check"></i>&nbsp;Statutory Compliance</p>
+            <p><i class="fas fa-check"></i>&nbsp;Loans & Advances</p>
+            <button class="btn-price--1">KNOW MORE</button>
+          </div>
+          <div class="price__card--2 text-left">
+            <h5>Expense</h5>
+            <p><i class="fas fa-check"></i>&nbsp;Employee Data Management</p>
+            <p>
+              <i class="fas fa-check"></i>&nbsp;Employee Life Cycle Management
+            </p>
+            <p><i class="fas fa-check"></i>&nbsp;Employee Self-Service</p>
+            <p>
+              <i class="fas fa-check"></i>&nbsp;Tasks & Checklist Management
+            </p>
+            <p><i class="fas fa-check"></i>&nbsp;Dashboard & Analytics</p>
+            <p><i class="fas fa-check"></i>&nbsp;Letter Gneration</p>
+            <button class="btn-price--2">KNOW MORE</button>
+          </div>
+          <div class="price__card--3 text-left">
+            <h5>Workforce</h5>
+            <p><i class="fas fa-check"></i>&nbsp;Performance Management</p>
+            <p><i class="fas fa-check"></i>&nbsp;Performance Reviews</p>
+            <p><i class="fas fa-check"></i>&nbsp;360 Degree Feedback</p>
+            <p><i class="fas fa-check"></i>&nbsp;Increment Management</p>
+            <p><i class="fas fa-check"></i>&nbsp;Appraisal System</p>
+            <button class="btn-price--3">KNOW MORE</button>
+          </div>
+          <div class="price__card--4 text-left">
+            <h5>Travel</h5>
+            <p><i class="fas fa-check"></i>&nbsp;Performance Management</p>
+            <p><i class="fas fa-check"></i>&nbsp;Performance Reviews</p>
+            <p><i class="fas fa-check"></i>&nbsp;360 Degree Feedback</p>
+            <p><i class="fas fa-check"></i>&nbsp;Increment Management</p>
+            <button class="btn-price--1">KNOW MORE</button>
+          </div>
+          <div class="price__card--5 text-left">
+            <h5>Time Office</h5>
+            <p><i class="fas fa-check"></i>&nbsp;Time & Attendence</p>
+            <p><i class="fas fa-check"></i>&nbsp;Leave Management</p>
+            <p><i class="fas fa-check"></i>&nbsp;Shift Management</p>
+            <p><i class="fas fa-check"></i>&nbsp;Holiday Calendar</p>
+            <button class="btn-price--1">KNOW MORE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="integration">
+      <div class="container integration__container">
+        <div class="integration__heading text-center">
+          <h4>
+            <hr class="line"></hr>Seamless Integration With<hr
+              class="line"
+            ></hr>
+          </h4>
+        </div>
+        <div class="container--1">
+            <div class="row text-center">
+                <div class="col col--1">
+                <img src="logo1.jpg" alt="">
+                </div>
+                <div class="col col--1">
+                    <img src="logo2.jpg" alt="">
+                </div>
+                <div class="col col--1"><img src="logo3.jpg" alt=""></div>
+                <div class="col col--1">
+                    <img src="logo4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container--2">
+            <div class="row text-center">
+                <div class="col col--1">
+                <img src="logo5.jpg" alt="">
+                </div>
+                <div class="col col--1">
+                    <img src="logo6.jpg" alt="">
+                </div>
+                <div class="col col--1"><img src="logo7.jpg" alt=""></div>
+                <div class="col col--1">
+                    <img src="logo8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="people">
+        <div class="container people__container">
+            <div class="row people__row">
+                <div class="col-md-6 people__col people__col--1">
+                    <img class="img-fluid--1 rounded-circle" src="people1.jpg" height="80px" width="80px" alt="">
+                    <img class="img-fluid--2 rounded-circle" src="people6.jpg" height="60px" width="60px" alt="">
+                    <img class="img-fluid--3 rounded-circle" src="people4.jpg" height="50px" width="50px" alt="">
+                    <img class="img-fluid--4 rounded-circle" src="people2.jpg" height="80px" width="80px" alt="">
+                    <img class="img-fluid--5 rounded-circle" src="people9.jpg" height="90px" width="90px" alt="">
+                    <img class="img-fluid--6 rounded-circle" src="people5.jpg" height="80px" width="80px" alt="">
+                    <img class="img-fluid--7 rounded-circle" src="people3.jpg" height="100px" width="100px" alt="">
+                    <img class="img-fluid--8 rounded-circle" src="people7.jpg" height="80px" width="80px" alt="">
+                    <img class="img-fluid--9 rounded-circle" src="people8.jpg" height="80px" width="80px" alt="">
+                </div>
+                <div class="col-md-6 people__col people__col--2">
+                    <h6 class="first__text">We bring joy</h6>
+                    <h6>to <span class="f_accent--1">2,00,000+ users</span></h6>
+                    <h6>everyday</h6>
+                    <p>Talk to our experts and find out how we can <span class="f_accent--2">create happy workplaces</span> </p>
+                    <input type="submit" class="logbtn" value="Request a Demo" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container-fluid footer__container">
+            <div class="row footer__row">
+                <div class="col-md-6 footer__col footer__col--1 text-center">
+                    <img src="footer.png" alt="">
+                </div>
+                <div class="col-md-6 footer__col footer__col--2">
+                   <div class="container__inside">
+                       <div class="row_inside">
+                           <div class="col-md-9">
+                               <h6>About HR-On</h6>
+                               <p class="txt--1">Uganda's Best HR Software Solution</p>
+                               <p class="txt--2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi ipsam magnam corrupti? Provident vitae aperiam eveniet quis eos saepe non omnis iste odio ab, nihil, a commodi doloremque ducimus ipsam hic accusantium. Ab consequatur necessitatibus dolorem quia eos aspernatur quis debitis asperiores eum laudantium provident veritatis assumenda veniam, vitae unde? Delectus minima cum atque eius in odit excepturi quibusdam quis!</p>
+                               <p class="txt--3">Ranked amongst <span class="f_accent--2">Top 05 Best HR Software Solutions</span> in Uganda by Software Suggest; HR-On is trusted by 200+ companies to simply and automate their HR function.</p>
+                           </div>
+                           <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                       </div>
+                   </div>
+                   <hr>
+                 <p class="socket">Copyright &copy; 2020 <strong>Robocop Workplace Solutions Pvt. Ltd.</strong> All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+      $(".txtb input").on("focus", function() {
+        $(this).addClass("focus");
+      });
+      $(".txtb input").on("blur", function() {
+        if ($(this).val() == "") $(this).removeClass("focus");
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".demo").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          arrows: false,
+          responsive: [
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            }
+          ]
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".price").slick({
+          dots: true,
+          centerMode: true,
+          centerPadding: "60px",
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 2,
+          arrows: false,
+          responsive: [
+              {
+                  breakpoint: 992,
+                  settings: {
+                      arrows: false,
+                      centerMode: true,
+                      centerPadding: "40px",
+                      slidesToShow: 2
+                  }
+              },
+            {
+              breakpoint: 767,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: "40px",
+                slidesToShow: 1
+              }
+            }
+          ]
+        });
+      });
+    </script>
+    <script>
+    mybutton = document.getElementById("myBtn");
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script>
+    <script src="/slick-1.8.1/slick/slick.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+  </body>
+</html>
