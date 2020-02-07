@@ -460,6 +460,9 @@ p.u_text--2 {
 .txt--1 {
   font-size: 20px;
 }
+.txt--3 {
+  padding-bottom: 3rem;
+}
 .socket {
   font-size: 10px;
 }
